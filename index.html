@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecniCR</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>TecniCR</h1>
+            <p>Conectando clientes con técnicos profesionales</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#tecnicos">Técnicos</a></li>
+            <li><a href="#cotizacion">Cotización</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="inicio" class="hero">
+            <h2>Bienvenido a TecniCR</h2>
+            <p>
+                Encuentra técnicos especializados para resolver problemas de tecnología,
+                mantenimiento, redes, computadoras y mucho más.
+            </p>
+        </section>
+
+        <section id="servicios">
+            <h2>Servicios Disponibles</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Reparación de Computadoras</h3>
+                    <p>Diagnóstico y reparación de equipos de escritorio y laptops.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Instalación de Redes</h3>
+                    <p>Configuración de redes domésticas y empresariales.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Soporte Técnico</h3>
+                    <p>Asistencia para software, hardware y dispositivos.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="tecnicos">
+            <h2>Técnicos Destacados</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Carlos Rodríguez</h3>
+                    <p>Especialista en Redes</p>
+                    <p>⭐⭐⭐⭐⭐</p>
+                </div>
+
+                <div class="card">
+                    <h3>María González</h3>
+                    <p>Soporte Informático</p>
+                    <p>⭐⭐⭐⭐⭐</p>
+                </div>
+
+                <div class="card">
+                    <h3>José Vargas</h3>
+                    <p>Reparación de Equipos</p>
+                    <p>⭐⭐⭐⭐</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="cotizacion">
+            <h2>Solicitud de Cotización</h2>
+
+            <form id="formCotizacion">
+
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" id="nombre" placeholder="Ingrese su nombre">
+
+                <label for="contacto">Contacto</label>
+                <input type="text" id="contacto" placeholder="Correo o teléfono">
+
+                <label for="fecha">Fecha Requerida</label>
+                <input type="date" id="fecha">
+
+                <label for="personas">Cantidad de Equipos</label>
+                <input type="number" id="personas" min="1">
+
+                <label for="comentarios">Descripción del Problema</label>
+                <textarea id="comentarios" rows="5"></textarea>
+
+                <button type="submit">
+                    Solicitar Cotización
+                </button>
+
+            </form>
+
+            <div id="mensaje"></div>
+
+        </section>
+
+    </main>
+
+    <footer id="contacto">
+        <p>© 2026 TecniCR</p>
+        <p>Correo: contacto@tecnicr.com</p>
+        <p>Teléfono: 8888-8888</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
